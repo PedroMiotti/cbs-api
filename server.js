@@ -23,7 +23,6 @@ app.use(cors());
 
 
 // ROTAS
-// /
 app.get('/', (req, res) => {
     res.send('Hello World');
 });
